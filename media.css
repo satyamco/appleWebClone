@@ -1,0 +1,231 @@
+@media (max-width: 1024px) {
+
+  /* iPhone 15 pro section */
+
+  .iphone15-pro h1 {
+    font-size: 48px;
+  }
+  .iphone15-pro h2 {
+    font-size: 24px;
+  }
+  .iphone15-pro a {
+    font-size: 19px;
+  }
+
+  /* iphone 15 */
+
+  .iphone15{
+    height: 620px;
+  }
+  
+  .iphone15 h1 {
+    font-size: 48px;
+  }
+  
+  .iphone15 h2 {
+    font-size: 24px;
+  }
+  
+  .iphone15 a {
+    font-size: 19px;
+  }
+
+  /* video section */
+
+  .watch h2{
+    font-size: 24px;
+  }
+
+  /* products section */
+
+  .macbook{
+    background-image: url("/assets/images/p-new.jpg ");
+  }
+
+  
+.p-h1 {
+  font-size: 30px;
+}
+
+.p-h2 {
+  font-size: 20px;
+}
+
+.p-a {
+  font-size: 16px;
+}
+
+.airpods h1{
+  font-size: 30px;
+}
+.airpods h2 {
+  font-size: 20px;
+}
+.airpods a {
+  font-size: 16px;
+}
+
+
+  
+  
+
+
+}
+
+@media (max-width: 848px) {
+  .navbar {
+    padding-left: 14px;
+  }
+  .nav-links {
+    display: none;
+  }
+  .icons {
+    gap: 20px;
+  }
+  .menu {
+    display: block;
+  }
+
+  /*  accordion design */
+
+  /*  footer section */
+
+  .footer-links{
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+
+  label {
+    background-color: #e2e2e2;
+    display: block;
+    padding: 12px ;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  span{
+    display: block;
+  }
+
+  .link-box ul{
+    padding-left: 12px;
+    display: none;   
+    overflow: hidden;
+    transition: display 0.5s;
+  }
+  .link-box label span{
+    transform: rotate(90deg);
+
+  }
+  .link-box ul li{
+    padding:7px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .link-box ul li:hover{
+    background-color: #efefef;
+  }
+  .footer-links label + input[type="radio"]:checked + ul{
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+
+  /* iPhone 15 pro section */
+  .iphone15-pro{
+    background-image: url("/assets/images/r-hero.jpg");
+  }
+  .iphone15-pro h1{
+    font-size: 32px;
+  }
+  .iphone15-pro h2{
+    font-size: 18px;
+  }
+  .iphone15-pro a{
+    font-size: 18px;
+    margin: 10px;
+  }
+
+  /* iphone 15 */
+ .iphone15{
+  background-size: cover;
+ }
+ .iphone15 h1{
+    font-size: 32px;
+  }
+  .iphone15 h2{
+    font-size: 18px;
+  }
+  .iphone15 a{
+    font-size: 18px;
+    margin: 10px;
+  }
+
+  /* video section */
+
+  .video{
+    height: 500px;
+  }
+  .watch{
+    max-width: 100%;
+  }
+  .watch img{
+    max-width:150px;
+  }
+  .watch h2{
+    font-size: 20px;
+  }
+  .big-btn{
+    font-size: 14px;
+    margin-block: 10px;
+  }
+  .watch div{
+    min-width: 100px;
+  }
+
+  /* products section */
+
+  .products{
+    flex-direction: column;
+  }
+  .macbook{
+    width: 100%;
+    margin: 6px 0;
+  }
+  .imac{
+    width: 100%;
+    margin: 6px 0;
+  }
+  .ipad{
+    width: 100%;
+    margin: 6px 0;
+  }
+  .watch-2{
+    width: 100%;
+    margin: 6px 0;
+  }
+  .airpods{
+    width: 100%;
+    margin: 6px 0;
+  }
+  .tradein{
+    width: 100%;
+    margin: 6px 0;
+  }
+  /* swiper section */
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: center;
+  }
+  
+}
