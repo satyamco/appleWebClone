@@ -39,7 +39,7 @@
   /* products section */
 
   .macbook{
-    background-image: url("/assets/images/p-new.jpg ");
+    background-image: url("assets/images/p-new.jpg ");
   }
 
   
@@ -135,7 +135,7 @@
 
   /* iPhone 15 pro section */
   .iphone15-pro{
-    background-image: url("/assets/images/r-hero.jpg");
+    background-image: url("assets/images/r-hero.jpg");
   }
   .iphone15-pro h1{
     font-size: 32px;
